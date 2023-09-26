@@ -54,7 +54,7 @@ const Navbar = () => {
                                         {/* <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" --> */}
                                         <Link to="/home" className="text-white rounded-md  font-bold relative" >Home</Link>
                                         <Link to="/preview" className="text-white hover:text-slate-400 font-normal relative ">TV Shows</Link>
-                                        <Link to="/data" className="text-white hover:text-slate-400 font-normal relative">Movies</Link>
+                                        <Link to="/movie" className="text-white hover:text-slate-400 font-normal relative">Movies</Link>
                                         <Link to="/newpopular" className="text-white hover:text-slate-400 font-normal relative">New & Popular</Link>
                                         <Link to="/mylist" className="text-white hover:text-slate-400 font-normal relative">My List</Link>
                                         <Link to="/bylanguage" className="text-white hover:text-slate-400 font-normal relative">Browse by Language</Link>

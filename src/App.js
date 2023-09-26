@@ -9,6 +9,7 @@ import Footer from './components/Footer';
 import NetflixApiState from './api/NetflixApiState';
 import Data from './components/Data';
 import Preview from './components/Preview';
+import Movies from './components/Movies';
 
 function App() {
 
@@ -32,8 +33,8 @@ function App() {
 
           <Route exact path='/' element={<SelectProfile />} />
           <Route exact path='/home' element={<Home />} />
-          <Route exact path='/data' element={<Data />} />
-          <Route exact path='/preview' element={<Preview />} />
+          {/* <Route exact path='/movie' element={<Movies />} />
+          <Route exact path='/preview' element={<Preview />} /> */}
           
 
         </Routes>

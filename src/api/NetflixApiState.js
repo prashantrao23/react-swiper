@@ -3,11 +3,13 @@ import NetflixApiContext from "./NetflixApiContext";
 import axios from "axios";
 
 
+
 const NetflixApiState = (props) => {
 
     const host = 'https://netflix54.p.rapidapi.com';
 
-    const API_Key = '995c3b13d5msh8f2ec43b7f5d188p1f4bc3jsn066cec4a630a'
+    const API_Key = process.env.REACT_APP_ACCESS_KEY;
+
 
     // const authToken = localStorage.getItem('token');
 
