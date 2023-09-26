@@ -1,0 +1,30 @@
+.account-icon .drop-icon i {
+  transition: transform 0.2s ease-in-out;
+}
+.account-icon:hover .drop-icon i {
+  transform: rotate(180deg);
+}
+
+.account-icon-dropdown {
+  transition: 0.2s;
+  visibility: hidden;
+  opacity: 0;
+  transition-property: opacity height;
+  transition-duration: 0.5s;
+  transition-delay: 1s;
+  background: none repeat scroll 0 0 rgba(0,0,0,0.8);
+}
+.account-icon:hover .account-icon-dropdown {
+  opacity: 1;
+  visibility: visible;
+  transition-delay: 0.5s;
+  -webkit-animation-play-state: paused;
+  -moz-animation-play-state: paused;
+  -o-animation-play-state: paused;
+  animation-play-state: paused;
+}
+.account-icon .account-icon-dropdown:hover {
+  opacity: 1;
+  visibility: visible;
+
+}
